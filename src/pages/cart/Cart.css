@@ -1,0 +1,41 @@
+
+.cart {
+  display: grid;
+  background-color: pink;
+  flex-direction: row;
+  gap: 70px;
+  padding: 150px;
+}
+.cart .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart .card img {
+  width: 70px;
+  height: 80px;
+}
+.cart .card p {
+  font-family: serif;
+  width: 200px;
+}
+.cart .card .quantity {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.cart .card .quantity p {
+  width: 70px;
+  text-align: center;
+}
+.cart .card .quantity button {
+  width: 50px;
+}
+.cart .total {
+  text-align: right;
+  border-top: 1px solid rgb(192, 68, 68);
+}
+button{
+  background: rgb(216, 112, 199);
+}
